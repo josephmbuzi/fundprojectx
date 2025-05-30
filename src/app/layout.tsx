@@ -9,7 +9,7 @@ const golos = Golos_Text({
   variable: '--font-golos'
 })
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Passion Project',
   description: 'A frontend-only site built with love.',
 }

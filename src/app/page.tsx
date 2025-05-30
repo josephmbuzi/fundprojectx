@@ -117,7 +117,14 @@ export default function Home() {
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {/* Card 1 */}
             <div className="rounded-xl border border-gray-200 overflow-hidden shadow-sm bg-white">
-              <img src="/images/1.jpg" alt="Startup 1" className="w-full h-40 object-cover" />
+              <Image
+                src="/images/1.jpg"
+                alt="Startup 1"
+                width={600}
+                height={600}
+                className="w-full h-60 object-cover"
+              />
+
               <div className="p-4">
                 {/* Tags */}
                 <div className="flex flex-wrap gap-2 mb-2 text-xs font-medium">
@@ -144,7 +151,14 @@ export default function Home() {
 
             {/* Card 2 */}
             <div className="rounded-xl border border-gray-200 overflow-hidden shadow-sm bg-white">
-              <img src="/images/1.jpg" alt="Startup 2" className="w-full h-40 object-cover" />
+              <Image
+                src="/images/2.jpg"
+                alt="Startup 1"
+                width={600}
+                height={600}
+                className="w-full h-60 object-cover"
+              />
+
               <div className="p-4">
                 <div className="flex flex-wrap gap-2 mb-2 text-xs font-medium">
                   <span className="bg-blue-100 text-blue-700 px-2 py-1 rounded-full">NOTABLE ANGEL</span>
@@ -168,7 +182,14 @@ export default function Home() {
 
             {/* Card 3 */}
             <div className="rounded-xl border border-gray-200 overflow-hidden shadow-sm bg-white">
-              <img src="/images/1.jpg" alt="Startup 3" className="w-full h-40 object-cover" />
+              <Image
+                src="/images/1.jpg"
+                alt="Startup 1"
+                width={600}
+                height={600}
+                className="w-full h-60 object-cover"
+              />
+
               <div className="p-4">
                 <div className="flex flex-wrap gap-2 mb-2 text-xs font-medium">
                   <span className="bg-blue-100 text-blue-700 px-2 py-1 rounded-full">VC-BACKED</span>
